@@ -1,11 +1,12 @@
 // Imports
 import "./App.css"
+import Navigation from "./Navigation"
 
 // Functions
 const App = () => {
 	return (
 		<>
-			<h1>Hij doet het!</h1>
+			<Navigation />
 		</>
 	)
 }

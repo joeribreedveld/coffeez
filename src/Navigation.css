@@ -1,0 +1,10 @@
+.navigation {
+    width: 100vw;
+    padding: 40px;
+    background-color: #553939;
+}
+
+.navigation__logo {
+    font-size: 100px;
+    color: #FCFFE7;
+}  
