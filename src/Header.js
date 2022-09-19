@@ -2,13 +2,13 @@
 import "./Header.css"
 
 // Functions
-const Header = () => {
+const Header = (props) => {
 	return (
 		<>
 			<header className='header'>
-				<h1 className='header__h1'>Grote titel</h1>
-				<h2 className='header__h2'>Kleine titel</h2>
-				<button className='header__button'>Bestel</button>
+				<h1 className='header__h1'>{props.bigTitle || "default big title"}</h1>
+				<h2 className='header__h2'>{props.smallTitle || "default small title"}</h2>
+				<button className='header__button'>{props.buttonText || "default"}</button>
 			</header>
 		</>
 	)

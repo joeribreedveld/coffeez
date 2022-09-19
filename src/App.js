@@ -8,7 +8,7 @@ const App = () => {
 	return (
 		<>
 			<Navigation />
-			<Header />
+			<Header bigTitle='Coffeez' smallTitle='Coffee that will make you smile' buttonText='order now' />
 		</>
 	)
 }

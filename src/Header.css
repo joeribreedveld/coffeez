@@ -9,16 +9,26 @@
     align-items: center;
     flex-direction: column;
     color: #eee;
+    gap: 40px;
 }
 
 .header__h1 {
     font-size: 120px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
 }
 
 .header__h2 {
-    font-size: 80px;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
 }
 
 .header__button {
-    font-size: 25px;
+    font-size: 20px;
+    background-color: #D36B00;
+    border: none;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
