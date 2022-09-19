@@ -11,6 +11,8 @@ const App = () => {
 			<Navigation />
 			<Header bigTitle='Coffeez' smallTitle='Coffee that will make you smile' buttonText='order now' />
 			<Section title='Koffie is lekker' />
+			<Section title='Koffie is vies' />
+			<Section title='Het is mooi weer vandaag' />
 		</>
 	)
 }
