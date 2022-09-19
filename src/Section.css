@@ -2,6 +2,10 @@
     min-height: 100vh;
 }
 
+.section__wrapper {
+    display: flex;
+}
+
 .section__header {
     padding: 40px;
     display: flex;

@@ -1,0 +1,27 @@
+.card {
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.card__figure {
+    height: 60%;
+    width: 100%;
+}
+
+.card__figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card__section {
+    height: 40%;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+}
