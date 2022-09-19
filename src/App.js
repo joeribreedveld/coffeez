@@ -2,6 +2,7 @@
 import "./App.css"
 import Navigation from "./Navigation"
 import Header from "./Header"
+import Section from "./Section"
 
 // Functions
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
 		<>
 			<Navigation />
 			<Header bigTitle='Coffeez' smallTitle='Coffee that will make you smile' buttonText='order now' />
+			<Section title='Titel van de section' />
 		</>
 	)
 }

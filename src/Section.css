@@ -1,0 +1,18 @@
+.section {
+    min-height: 100vh;
+}
+
+.section__header {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 60px;
+    gap: 20px;
+}
+
+.section__h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
