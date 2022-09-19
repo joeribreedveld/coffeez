@@ -1,22 +1,22 @@
 .section {
-    padding: 40px;
+    padding: 4rem;
 }
 
 .section__wrapper {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
 .section__header {
-    padding: 40px;
+    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #eee;
-    font-size: 60px;
-    gap: 20px;
+    font-size: 6rem;
+    gap: 2rem;
 }
 
 .section__h2 {

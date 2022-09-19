@@ -1,10 +1,10 @@
 // Imports
 import "./App.css"
-import Navigation from "./Navigation"
-import Header from "./Header"
-import Card from "./Card"
-import "./Section.css"
-import Section from "./Section"
+import Navigation from "./components/Navigation/Navigation"
+import Header from "./components/Header/Header"
+import Card from "./components/Card/Card"
+import "./Section/Section.css"
+import Section from "./Section/Section"
 
 // Functions
 const App = () => {

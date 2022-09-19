@@ -9,29 +9,29 @@
     align-items: center;
     flex-direction: column;
     color: #eee;
-    gap: 40px;
+    gap: 4rem;
     text-align: center;
 }
 
 .header__h1 {
-    font-size: 120px;
+    font-size: 12rem;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
 }
 
 .header__h2 {
-    font-size: 60px;
+    font-size: 6rem;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
 }
 
 .header__button {
-    font-size: 20px;
+    font-size: 2rem;
     background-color: #eee;
     border: none;
-    padding: 10px 40px;
+    padding: 1rem 4rem;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     transition: 0.2s;
 }
 
